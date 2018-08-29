@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./toggle-key.component.scss']
 })
 export class ToggleKeyComponent {
-  public helpKey1: string = 'advocacy.html';
-  public helpKey2: string = 'bb-new-features.html';
+  public helpKey1: string = 'dc-make-grant-rec.html';
+  public helpKey2: string = 'dc-admin-menu.html';
 
   public helpKey: string = this.helpKey1;
 

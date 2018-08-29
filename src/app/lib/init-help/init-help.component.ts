@@ -11,10 +11,11 @@ export class HelpInitComponent {
   constructor(
     private windowRef: HelpWindowRef,
     private initService: HelpInitializationService) {
-    if (!this.windowRef.nativeWindow.BBHELP) {
+      console.log('help');
+    // if (!this.windowRef.nativeWindow.BBHELP) {
       this.initService.load({
-        extends: 'bb-help'
+        extends: 'bbhelp'
       });
-    }
+    // }
   }
 }
